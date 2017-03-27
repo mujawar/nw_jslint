@@ -1,5 +1,3 @@
-
-
 var app = angular.module('myApp',[]);
 
 app.controller('myController',function ($scope) {
@@ -25,8 +23,3 @@ app.controller('myController',function ($scope) {
     }
 
 })
-// try {
-//     jsonlint.parse(faultyJsonToParse)
-// } catch(e) {
-//     document.write('<pre>' + e)
-// }
